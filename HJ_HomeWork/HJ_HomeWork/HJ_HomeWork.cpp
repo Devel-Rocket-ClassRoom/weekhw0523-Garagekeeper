@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include <time.h>
 #include "Homework.h";
 
 int main()
 {
+    //int Seed = time(0);
+    int Seed = 0;
+    srand(Seed);
     Homework_RunAll();
 }
 
