@@ -31,7 +31,7 @@ void Homework02_Run()
 	}
 
 	//2. 값 출력하기
-	printf("모든 자리수의 합은 : [%d] 입니다!.\n\n");
+	printf("모든 자리수의 합은 : [%d] 입니다!.\n\n", Sum);
 }
 
 void Homework03_Run()
