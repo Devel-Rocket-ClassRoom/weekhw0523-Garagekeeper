@@ -37,7 +37,7 @@ void PrintChoiceScreen(bool* DirArr);
 /// <summary>
 /// 방향을 입력받는 함수 (wasd로 입력받아 방향값으로 반환)
 /// </summary>
-/// <returns>입력받은 방향</returns>
+/// <returns>입력받은 방향, 비정상적인 값일 경우 EDirLength 반환</returns>
 int GetDirInput();
 
 /// <summary>
